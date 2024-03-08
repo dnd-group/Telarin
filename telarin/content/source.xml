@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+    <info>
+        <update version="0.1">
+            <file name="source.xml" url="https://raw.githubusercontent.com/dnd-group/telarin/main/content/source.xml" />
+        </update>
+    </info>
+	<element name="Telarin" type="Source" source="Core" id="ID_CUSO_SOURCE_TELARIN">
+		<setters>
+			<set name="abbreviation">TEL</set>
+			<set name="image"/>
+			<set name="url">https://github.com/dnd-group/telarin</set>
+			<set name="author" abbreviation="DNDG" url="">DnD Group</set>
+			<set name="release">20220817</set>
+			<set name="playtest">false</set>
+			<set name="homebrew">true</set>
+			<set name="incomplete">false</set>
+		</setters>
+	</element>
+</elements>
