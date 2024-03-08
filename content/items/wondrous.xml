@@ -2,7 +2,7 @@
 <elements>
     <info>
         <update version="0.1">
-            <file name="wondrous.xml" url="https://raw.githubusercontent.com/dnd-group/telarin/main/content/items/wondrous.xml" />
+            <file name="wondrous.xml" url="https://raw.githubusercontent.com/dnd-group/telarin/master/content/items/wondrous.xml" />
         </update>
     </info>
     <element name="Icarus Promise" type="Magic Item" source="Telarin" id="ID_DNDG_TELARIN_MAGIC_ITEM_RING_OF_ICARUS_PROMISE">

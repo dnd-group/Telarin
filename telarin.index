@@ -2,13 +2,13 @@
 <index>
   <info>
     <update version="0.1">
-      <file name="telarin.index" url="https://raw.githubusercontent.com/dnd-group/telarin/main/telarin.index" />
+      <file name="telarin.index" url="https://raw.githubusercontent.com/dnd-group/telarin/master/telarin.index" />
     </update>
   </info>
   <files>
-    <file name="source.xml" url="https://raw.githubusercontent.com/dnd-group/telarin/main/content/source.xml" />
-    <file name="wondrous.xml" url="https://raw.githubusercontent.com/dnd-group/telarin/main/content/spells.xml" />
+    <file name="source.xml" url="https://raw.githubusercontent.com/dnd-group/telarin/master/content/source.xml" />
+    <file name="wondrous.xml" url="https://raw.githubusercontent.com/dnd-group/telarin/master/content/spells.xml" />
 
-    <file name="wondrous.xml" url="https://raw.githubusercontent.com/dnd-group/telarin/main/content/items/wondrous.xml" />
+    <file name="wondrous.xml" url="https://raw.githubusercontent.com/dnd-group/telarin/master/content/items/wondrous.xml" />
   </files>
 </index>

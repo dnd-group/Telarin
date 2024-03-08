@@ -2,7 +2,7 @@
 <elements>
     <info>
         <update version="0.1">
-            <file name="source.xml" url="https://raw.githubusercontent.com/dnd-group/telarin/main/content/source.xml" />
+            <file name="source.xml" url="https://raw.githubusercontent.com/dnd-group/telarin/master/content/source.xml" />
         </update>
     </info>
 	<element name="Telarin" type="Source" source="Core" id="ID_CUSO_SOURCE_TELARIN">
