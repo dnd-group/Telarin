@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
     <info>
-        <update version="0.1">
-            <file name="wondrous.xml" url="https://raw.githubusercontent.com/dnd-group/telarin/master/content/spells.xml" />
+        <update version="0.2">
+            <file name="spells.xml" url="https://raw.githubusercontent.com/dnd-group/telarin/master/content/spells.xml" />
         </update>
     </info>
     <element name="Riveting Tale" type="Spell" source="Telarin" id="ID_DNDG_TELARIN_SPELL_RIVETING_TALE">
