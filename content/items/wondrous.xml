@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
     <info>
-        <update version="0.2">
+        <update version="0.1">
             <file name="wondrous.xml" url="https://raw.githubusercontent.com/dnd-group/telarin/main/content/items/wondrous.xml" />
         </update>
     </info>
-    <element name="Ring of Strength" type="Magic Item" source="Telarin" id="ID_DNDG_TEL_MAGIC_ITEM_RING_OF_ICARUS_PROMISE">
+    <element name="Icarus Promise" type="Magic Item" source="Telarin" id="ID_DNDG_TELARIN_MAGIC_ITEM_RING_OF_ICARUS_PROMISE">
         <description>
             <p>Vow. While wearing the ring you gain a +1 Bonus on all saving throws. When you break your word or lie, the bonus is suspended until the next dawn the ring flares brightly, dealing 1d6 fire damage to you as it gains a new check. If you roll a 6 on this fire damage, the ring shatters completely and is destroyed.</p>
             <p>Sunkiss. As an action, you can cause the ring to detonate. Each creature within 20 feet of you must make a DC13 Dex saving throw, taking 8d6 fire damage and 8d6 radiant damage on a failed save, or half as much damage on a successful one. You automatically fail the saving throw. After you use this property, the ring is destroyed.</p>
@@ -26,5 +26,36 @@
             <stat name="intelligence:save:misc" value="1" />
             <stat name="carisma:save:misc" value="1" />
         </rules>
+    </element>
+    <element name="The Sound Barrier" type="Magic Item" source="Telarin" id="ID_DNDG_TELARIN_MAGIC_ITEM_THE_SOUND_BARRIER">
+        <description>
+            <p>A brass gong fitted to be worn as a shield ringed with musical runes. While holding this shield you and creatures within 5 feet of you have resistance to thunder damage.</p>
+            <p class="indent"><strong>Resonance.</strong> This shield can hold up to 4 points of vibration. If you have proficiency with drums, it can hold up to 5 instead. When you take 6 or more bludgeoning or thunder damage from a single source (before applying the resistance), this shield gains a point of vibration for every 6 points of damage dealt. If this shield does not gain any more points of vibration for 1 hour, it loses all points of vibration.</p>
+            <p class="indent">As an action you can spend any number of points of vibration and slam the back of this shield to unleash a cone of tremendous noise. The size of the cone is increased by 15 feet for each point spent. Each creature in the area must make a Constitution saving throw where the DC is equal to 13 + the number of points spent. On a failed save the creature takes 2d6 thunder damage per point spent, or half as much on a successful save. A creature that fails its save and takes 20 or more thunder damage is also stunned and deafened until the end of your next turn.</p>
+        </description>
+        <setters>
+            <set name="keywords">shield</set>
+            <set name="category">Magic Armor</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="type" addition="shield">Armor</set>
+            <set name="attunement">true</set>
+            <set name="rarity">Rare</set>
+            <set name="armor">ID_INTERNAL_ARMOR_GROUP_SHIELD</set>
+        </setters>
+    </element>
+    <element name="Bandolier of Many Knives" type="Magic Item" source="Telarin" id="ID_DNDG_TELARIN_MAGIC_ITEM_BANDOLIER_OF_MANY_KNIVES">
+        <description>
+            <p>This Bandolier has eight daggers sheathed in it. You have a +1 bonus to attack and damage rolls made with one of these magic daggers. Unless it is being wielded by you, a dagger removed from this bandolier vanishes at the end of your turn and reappears on the bandolier.</p>
+            <p class="indent"><strong>Fan of Blades.</strong> As an action while wearing the bandolier, you can throw all eight daggers at once. You must have a free hand to do so. Each creature in a 15-foot cone must make a DC 15 DEX saving throw. A creature takes 4d4 piercing damage on a failed save, or half as much on a successful one. This property can only be used once per longrest.</p>
+        </description>
+        <setters>
+            <set name="category">Wondrous Items</set>
+            <set name="cost" currency="gp">0</set>
+            <set name="weight" lb="0">0 lb.</set>
+            <set name="slot">waist</set>
+            <set name="type">Wondrous Item</set>
+            <set name="attunement">true</set>
+            <set name="rarity">Rare</set>
+        </setters>
     </element>
 </elements>

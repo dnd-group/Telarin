@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <update version="0.1">
+            <file name="wondrous.xml" url="https://raw.githubusercontent.com/dnd-group/telarin/main/content/spells.xml" />
+        </update>
+    </info>
+    <element name="Riveting Tale" type="Spell" source="Telarin" id="ID_DNDG_TELARIN_SPELL_RIVETING_TALE">
+        <supports>Bard</supports>
+        <description>
+            <p>When you cast this spell you begin to tell a creature that can hear and understand you within range a story so engaging that they forget everything else. The creature must make a Wisdom saving throw, and does so with advantage if you or your companions are fighting it. If it fails the saving throw, it is charmed by you until the spell ends or until you or your companions do anything harmful to it. While a creature is charmed in this way, it is incapacitated and cannot move.</p>
+            <p class="indent">You must use an action on each of your turns after you cast this spell to maintain its effects. The spell ends if you use your action to do anything else. The spell also ends if the target is ever outside the spell’s range or if it can no longer hear you.</p>
+            <p class="indent">Once the spell ends, the target knows it was charmed by you but cannot remember anything else that happened for the duration except what you said to it.</p>
+            <p class="indent"><strong>At higher levels.</strong> When you cast this spell using a spell slot of 3rd level or higher, you may choose an additional target within range for each spell slot use above 2nd.</p>
+        </description>
+        <setters>
+            <set name="level">2</set>
+            <set name="school">Enchantment</set>
+            <set name="time">1 action</set>
+            <set name="duration">Concentration, up to 10 minute</set>
+            <set name="range">30 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent" />
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+    <element name="Story of Vile Powers" type="Spell" source="Telarin" id="ID_DNDG_TELARIN_SPELL_STORY_OF_VILE_POWERS">
+        <supports>Bard</supports>
+        <description>
+            <p>Choose a vile power, whose story you want to manifest:</p>
+            <p class="indent"><strong>Undeath (Instantaneous):</strong> Choose up to 3 visible targets in range to affect with negative energy. They must make a CON saving throw or take 7d6 necrotic damage, half on a success. If a target dies from this damage, they become specters for a number of rounds equal to your proficiency modifier, before disappearing into the afterlife.</p>
+            <p class="indent"><strong>Abyssal:</strong> A geyser of putrid gases and caustic liquid erupts from a point in range, that you can see. All creatures in a 60ft high cylinder of radius 5ft must make a DEX saving throw. (the base area of the cylinder is a rectangle of 2x2 squares) On a failed save the creature takes 5d6 acid and 2d12 poison damage and must make a CON saving throw or be poisoned until the end of your next turn. On a successful save the creature takes half the damage and is not poisoned.</p>
+            <p class="indent"><strong>Infernal:</strong> From the elemental plane of fire you call forth a bodyless fire demon to attack a visible creature in range for you. Make a ranged spell attack against that creature. On a hit, the target takes 3d12 fire damage and 2d10 necrotic damage. On each of your turns for the duration of the spell, while maintaining your concentration, you can use your action to deal 3d12 fire damage to the target automatically. The spell ends if you use your action to do anything else. The spell also ends if the target is ever outside the spell’s range or if it has total cover from you.</p>
+        </description>
+        <setters>
+            <set name="level">3</set>
+            <set name="school">Necromancy</set>
+            <set name="time">1 action</set>
+            <set name="duration">Instantaneous/Concentration, up to 1 minute</set>
+            <set name="range">30 feet</set>
+            <set name="hasVerbalComponent">true</set>
+            <set name="hasSomaticComponent">true</set>
+            <set name="hasMaterialComponent">false</set>
+            <set name="materialComponent" />
+            <set name="isConcentration">true</set>
+            <set name="isRitual">false</set>
+        </setters>
+    </element>
+</elements>
